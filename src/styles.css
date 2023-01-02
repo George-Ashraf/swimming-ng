@@ -1,1 +1,45 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courgette', cursive;
+
+}
+
+.dark {
+    background-image: url(./assets/images/night.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nightsea {
+    height: 240px;
+    background-image: url(./assets/images/nightsea.jpeg);
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 0;
+
+}
+
+body {
+    background-image: url(./assets/images/Picture1.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

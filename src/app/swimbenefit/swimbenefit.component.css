@@ -1,0 +1,469 @@
+
+
+.swimbenfit {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: rgba(175, 238, 238, 0.716);
+
+}
+
+.swimbenfit .head {
+    height: 500px;
+    text-align: center;
+
+}
+
+.swimbenfit .head img {
+    position: relative;
+    top: 0;
+    width: 900px;
+    height: 500px;
+    animation-name: cloud;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0;
+    }
+
+}
+
+.swimbenfit .head h1 {
+    position: absolute;
+    top: 200px;
+    right: 350px;
+    z-index: 1000;
+    margin-right: 30px;
+    color: GhostWhite;
+    font-weight: bold;
+    font-size: 95px;
+    animation-name: text;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes text {
+    0% {
+        top: 200;
+    }
+
+    50% {
+        top: 270px;
+    }
+
+    100% {
+        top: 200;
+    }
+
+}
+
+.swimbenfit .number1 {
+    height: 100px;
+
+}
+
+.swimbenfit .number1 p {
+    font-size: 90px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    color: white;
+
+}
+
+.swimbenfit .number1 .line {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 10px;
+    background-color: white;
+}
+
+.swimbenfit .number2 {
+    height: 100px;
+
+}
+
+.swimbenfit .number2 p {
+    font-size: 90px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    color: white;
+
+}
+
+.swimbenfit .number2 .line {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 10px;
+    background-color: white;
+}
+
+.swimbenfit .number3 {
+    height: 100px;
+
+}
+
+.swimbenfit .number3 p {
+    font-size: 90px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    color: white;
+
+}
+
+.swimbenfit .number3 .line {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 10px;
+    background-color: white;
+}
+
+.swimbenfit .number4 {
+    height: 100px;
+
+}
+
+.swimbenfit .number4 p {
+    font-size: 90px;
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    color: white;
+
+}
+
+.swimbenfit .number4 .line {
+    margin-top: 50px;
+    margin-left: 200px;
+    height: 10px;
+    background-color: white;
+}
+
+.swimbenfit .benefit1 {
+    margin-top: 30px;
+    padding: 0;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.193);
+
+}
+
+.swimbenfit .benefit1 .text {
+    height: auto;
+
+}
+
+.swimbenfit .benefit1 .text h1 {
+    color: SteelBlue;
+    margin-left: 20px;
+}
+
+.swimbenfit .benefit1 .text p {
+    color: #1871f7;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.swimbenfit .benefit1 .image {
+    height: 400px;
+
+}
+
+.swimbenfit .benefit1 .image img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+
+.swimbenfit .benefit1 .image #donate {
+    width: 300px;
+    margin-left: 200px;
+}
+
+.swimbenfit .benefit2 {
+    margin-top: 30px;
+    padding: 0;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.193);
+
+}
+
+.swimbenfit .benefit2 .text {
+    height: auto;
+
+}
+
+.swimbenfit .benefit2 .text h1 {
+    color: SteelBlue;
+    margin-left: 20px;
+}
+
+.swimbenfit .benefit2 .text p {
+    color: #1871f7;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.swimbenfit .benefit2 .image {
+    height: 400px;
+
+}
+
+.swimbenfit .benefit2 .image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:780px) {
+
+.swimbenfit .head {
+        height: 320px;
+        text-align: center;
+
+    }
+
+    .swimbenfit .head img {
+        position: relative;
+        top: 0;
+        right: 20px;
+        width: 340px;
+        height: 300px;
+        animation-name: cloud;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes cloud {
+        0% {
+            top: 0;
+        }
+
+        50% {
+            top: 50px;
+        }
+
+        100% {
+            top: 0;
+        }
+
+    }
+
+    .swimbenfit .head h1 {
+        position: absolute;
+        top: 90px;
+        right:30px;
+        z-index: 1000;
+        margin-right: 0px;
+        color: GhostWhite;
+        font-weight: bold;
+        font-size: 50px;
+        animation-name: text1;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes text1 {
+        0% {
+            top: 90px;
+        }
+
+        50% {
+            top: 150px;
+        }
+
+        100% {
+            top: 90px;
+        }
+
+    }
+
+    
+    .swimbenfit .number1 {
+        height: 100px;
+
+    }
+
+    .swimbenfit .number1 p {
+        font-size: 90px;
+        position: relative;
+        left: 0px;
+        bottom: 10px;
+        color: white;
+
+    }
+
+    .swimbenfit .number1 .line {
+        margin-top: 0px;
+        margin-left: 150px;
+        position: relative;
+        bottom: 90px;
+        height: 10px;
+        background-color: white;
+    }
+
+    .swimbenfit .number2 {
+        height: 100px;
+        direction: rtl;
+
+    }
+
+    .swimbenfit .number2 p {
+        font-size: 90px;
+        position: relative;
+        left: 0px;
+        bottom: 10px;
+        color: white;
+
+    }
+
+    .swimbenfit .number2 .line {
+        margin-top: 0px;
+        margin-left: 150px;
+        position: relative;
+        right: 140px;
+        top: 60px;
+        height: 10px;
+        background-color: white;
+    }
+
+    .swimbenfit .number3 {
+        height: 100px;
+
+    }
+
+    .swimbenfit .number3 p {
+        font-size: 90px;
+        position: relative;
+        left: 0px;
+        bottom: 10px;
+        color: white;
+
+    }
+
+    .swimbenfit .number3 .line {
+        margin-top: 0px;
+        margin-left: 150px;
+        position: relative;
+        bottom: 90px;
+        height: 10px;
+        background-color: white;
+    }
+
+    .swimbenfit .number4 {
+        height: 100px;
+        direction: rtl;
+
+    }
+
+    .swimbenfit .number4 p {
+        font-size: 90px;
+        position: relative;
+        left: 0px;
+        bottom: 10px;
+        color: white;
+
+    }
+
+    .swimbenfit .number4 .line {
+        margin-top: 0px;
+        margin-left: 150px;
+        position: relative;
+        right: 140px;
+        top: 60px;
+        height: 10px;
+        background-color: white;
+    }
+    .swimbenfit .benefit1 .image #donate {
+        width: 300px;
+        margin-left: 0px;
+        position: relative;
+        bottom: 100px;
+    }
+  
+
+}
+
+@media(min-width:481px) and (max-width:767px){
+
+.swimbenfit .head {
+    height: auto;
+    text-align: center;
+}
+.swimbenfit .head img {
+    position: relative;
+    top: 0;
+    right: 10px;
+    width: 550px;
+    height: 300px;
+    animation-name: cloud;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cloud {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0;
+    }
+
+}
+
+.swimbenfit .head h1 {
+    position: absolute;
+    top: 130px;
+    right: 150px;
+    z-index: 1000;
+    margin-right: 30px;
+    color: GhostWhite;
+    font-weight: bold;
+    font-size: 50px;
+    animation-name: text2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes text2 {
+    0% {
+        top: 130px;
+    }
+
+    50% {
+        top: 170px;
+    }
+
+    100% {
+        top: 130px;
+    }
+
+}}
