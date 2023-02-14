@@ -3,7 +3,7 @@ import { SwimheroComponent } from './swimhero/swimhero.component';
 import { SwimbenefitComponent } from './swimbenefit/swimbenefit.component';
 import { TypeofComponent } from './typeof/typeof.component';
 import { HomeComponent } from './home/home.component';
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 

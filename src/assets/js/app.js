@@ -77,3 +77,22 @@ wow = new WOW(
   }).init();
 // wow js
 
+// gsap.timeline ({
+//   scrollTrigger: {
+//        trigger: ".container-fluid",
+//        start: "center center", //Animation start at this point
+//        end: "bottom top", //Animation End at this point
+//        markers: true,
+//        scrub: "true",
+//        pin:true,
+
+//       },
+
+// })
+// .from(".type1", {  x : innerWidth *-1 })
+// .from(".type2", {  x : innerWidth * -1 })
+// // .from(".type1", {  x : innerWidth * 1 })
+// // .from(".logo", {
+// // y:innerHeight*1,
+// // rotate:360
+// // })

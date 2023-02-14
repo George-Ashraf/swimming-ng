@@ -1,92 +1,117 @@
 .home {
-    width: 100%;
-    height: auto;
-    padding-bottom: 315px;
-    overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding-bottom: 285px;
+  overflow: hidden;
 }
+
 
 .home .welcome {
 
-    height: auto;
-    margin: 130px auto 0px auto;
-    position: relative;
+  height: auto;
+  margin: 130px auto 0px auto;
+}
 
+.home .welcome .input {
+
+  padding: 0 15px;
+  width: 250px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 
 }
 
+.home .welcome .input input {
+  width: 250px;
+  height: 30px;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 5px solid rgba(175, 238, 238, 0.716);
+  text-align: center;
+}
+.home .welcome .input input::placeholder{
+  color: black;
+}
+
+
 .home .welcome p {
-    text-align: center;
-    font-weight: bold;
-    padding-top: 100px;
-    font-size: 30px;
-    color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 100px;
+  font-size: 30px;
+  color: white;
 }
 
 .home .welcome .button {
-    height: auto;
-    margin: auto;
-    display: flex;
-    justify-content: center;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .home .welcome .button button {
-    margin-top: 50px;
-    width: 250px;
-    height: 50px;
-    border-radius: 30px;
-    border: none;
-    font-size: 20px;
-    color: white;
-    background-color: rgba(175, 238, 238, 0.716);
+  margin-top: 50px;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(175, 238, 238, 0.716);
 
 }
 
 .home .welcome .button button:hover {
-    background-color: deepskyblue;
+  background-color: deepskyblue;
 }
 
 .home .sea {
-    height: 220px;
-    background-image: url(../../assets/images/Picture2.jpg);
-    background-size: 100% 100%;
-    position: absolute;
-    bottom: 0;
+  height: 230px;
+  background-image: url(../../assets/images/Picture2.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
 
 }
 
 @media (max-width:780px) {
-.home {
+  .home {
     width: 100%;
     height: auto;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     overflow: hidden;
-}
+  }
 
-.home .welcome {
+  .home .welcome {
 
     height: auto;
     margin: 30px auto 0px auto;
     position: relative;
 
 
-}
+  }
 
-.home .welcome p {
+  .home .welcome p {
     text-align: center;
     font-weight: bold;
     padding-top: 100px;
     font-size: 23px;
     color: white;
-}
+  }
 
-.home .welcome .button {
+  .home .welcome .button {
     height: auto;
     margin: auto;
     display: flex;
     justify-content: center;
-}
+  }
 
-.home .welcome .button button {
+  .home .welcome .button button {
     margin-top: 25px;
     width: 200px;
     height: 50px;
@@ -96,13 +121,13 @@
     color: white;
     background-color: rgba(175, 238, 238, 0.716);
 
-}
+  }
 
-.home .welcome .button button:hover {
+  .home .welcome .button button:hover {
     background-color: deepskyblue;
-}
+  }
 
-.home .sea {
+  .home .sea {
     height: auto;
     padding-bottom: 220px;
     background-image: url(../../assets/images/Picture2.jpg);
@@ -110,14 +135,16 @@
     position: absolute;
     bottom: 0;
 
-}}
-@media(min-width:481px) and (max-width:767px){
+  }
+}
 
-    .home .welcome {
-        height: auto;
-        margin: 140px auto 0px auto;
-        position: relative;
+@media(min-width:481px) and (max-width:767px) {
+
+  .home .welcome {
+    height: auto;
+    margin: 140px auto 0px auto;
+    position: relative;
 
 
-    }
+  }
 }

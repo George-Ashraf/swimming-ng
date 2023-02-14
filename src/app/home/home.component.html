@@ -1,12 +1,18 @@
 <section class="home">
-    <div class="welcome col-lg-10 ">
-        <p class="animate__animated animate__fadeInUp">Hello and welcome to our site we explain here swimming in detail and we are the only site that presents
-            this.
-        </p>
-        <div class="button animate__animated animate__fadeInUp col-lg-3">
-            <a routerLink="/typeof"> <button>Get Started</button></a>
-        </div>
+  <div class="welcome col-lg-10 ">
 
+    <div class="input">
+      <input type="text" maxlength="10" #Name="ngModel" placeholder="Enter your name to get started" name="hi" [(ngModel)]="hi"
+        required>
     </div>
-    <div class="sea col-lg-12"></div>
+    <p class="animate__animated animate__fadeInUp">Hello and welcome {{hi}} to our site we explain here swimming in
+      detail and we are the only site that presents
+      this.
+    </p>
+    <div class="button animate__animated animate__fadeInUp col-lg-3">
+      <a routerLink="/typeof"> <button [disabled]="Name.invalid" >Get Started</button></a>
+    </div>
+
+  </div>
+  <div class="sea col-lg-12"></div>
 </section>

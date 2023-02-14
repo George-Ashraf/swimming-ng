@@ -4,6 +4,9 @@
     font-family: 'Courgette', cursive;
 
 }
+html{
+  scroll-behavior: smooth;
+}
 
 .dark {
     background-image: url(./assets/images/night.jpeg);
